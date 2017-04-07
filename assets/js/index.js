@@ -3,8 +3,6 @@ angular.module("portfolio",[]);
 angular.module("portfolio").controller("mainController",function($scope){
   $scope.fullName = "Francisco Ari Josino Junior";
   $scope.devTitle = "FullStack Developer"
-  // $scope.twitterProfile = "https://twitter.com/ririari"
-  // $scope.gplusProfile = "https://plus.google.com/112171269442338637097"
   $scope.linkedinProfile = "https://linkedin.com/in/francisco-ari-josino-junior-89a07621"
   $scope.githubProfile = "https://github.com/arijosino"
   $scope.email = "arijr@outlook.com"
