@@ -82,7 +82,7 @@
                                 <div class="desc text-left" ng-repeat="paragraph in projects[0].description">
                                     <p>{{paragraph}}</p>
                                 </div><!--//desc-->
-                                <a class="btn btn-cta-secondary" href="{{projects[0].link}}" target="_blank"><i class="fa fa-android"></i> Get it on Google Play</a>
+                                <!-- <a class="btn btn-cta-secondary" href="{{projects[0].link}}" target="_blank"><i class="fa fa-android"></i> Get it on Google Play</a> -->
                             </div><!--//item-->
                             <hr class="divider" />
                             <div ng-repeat="secondaryProject in projects">
@@ -164,7 +164,7 @@
                                 </div><!--//item-->
 
                             </div>
-                            <p><a class="more-link" href="{{codingNetwork.link}}" target="_blank"><i class="fa fa-external-link"></i> More on {{codingNetwork.title}}</a></p>
+                            <p ng-if="codingNetwork"><a class="more-link" href="{{codingNetwork.link}}" target="_blank"><i class="fa fa-external-link"></i> More on {{codingNetwork.title}}</a></p>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->

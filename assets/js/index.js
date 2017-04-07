@@ -6,9 +6,9 @@ angular.module("portfolio").controller("mainController",function($scope){
   // $scope.twitterProfile = "https://twitter.com/ririari"
   // $scope.gplusProfile = "https://plus.google.com/112171269442338637097"
   $scope.linkedinProfile = "https://linkedin.com/in/francisco-ari-josino-junior-89a07621"
-  $scope.githubProfile = "https://github.com/ririari"
+  $scope.githubProfile = "https://github.com/arijosino"
   $scope.email = "arijr@outlook.com"
-  $scope.aboutMe = ["I am a developer that just got back to school after graduating in Computer Engineering in Brazil. After all I've been through as a student and a developer, I'd recently call myself a FullStack developer, although I do not limit myself to web systems since I worked with mobile and embedded software for a considerable amount of time.","I enjoy coding, gaming and Netflix."];
+  $scope.aboutMe = ["I am a developer who just got back to school after graduating in Computer Engineering in Brazil. After all I've been through as a student and a developer, I'd recently call myself a FullStack developer, although I do not limit myself to web systems since I worked with mobile and embedded software for a considerable amount of time.","I enjoy coding, gaming and Netflix."];
   $scope.projects = [
     {
       name:"Rmind",
@@ -17,7 +17,7 @@ angular.module("portfolio").controller("mainController",function($scope){
       summary:"A reminder app for sending and receiving alarms from your friends",
       description:[
         "This is an app I created as a personal exercise using Parse and the facebook Android API. The user can set personal alarms or send alarms with specific messages to friends. The user can opt to accept 'Rminders' coming from a facebook friend that also has this app, setting an alarm, or simply decline it.",
-        "Since Parse is winding down and deactivating many of its resources, I'll have to maintain it"
+        "Since Parse deactivated many of its resources, this app is under maintenance and won't work as of now"
       ],
     },{
       name:"Warship",
@@ -97,7 +97,7 @@ angular.module("portfolio").controller("mainController",function($scope){
       {
         title:"Java EE + Spring",
         levelLabel:'Intermediate',
-        observation:"A bit rusty with spring, but nothing like a few days to dust it off",
+        // observation:"",
         levelPercentage:"60%"
       },
       {
@@ -107,10 +107,10 @@ angular.module("portfolio").controller("mainController",function($scope){
       },
     ];
 
-    $scope.codingNetwork = {
-      title:"CodinGame",
-      link:"https://www.codingame.com/profile/56df37f61628297d3ecd56499c6b2eb14357911"
-    }
+    // $scope.codingNetwork = {
+    //   title:"CodinGame",
+    //   link:"https://www.codingame.com/profile/56df37f61628297d3ecd56499c6b2eb14357911"
+    // }
 
     $scope.education = [
       {
