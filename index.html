@@ -73,7 +73,7 @@
                                 <p class="summary">{{projects[0].summary}}</p>
                                 <div class="featured-image">
                                     <a href="{{projects[0].link}}" target="_blank">
-                                    <img class="img-responsive project-image" src="{{projects[0].image}}" alt="project name" />
+                                    <img class="img-responsive project-image" ng-src="{{projects[0].image}}" alt="project name" />
                                     </a>
                                     <!-- <div class="ribbon">
                                         <div class="text">New</div>
@@ -88,7 +88,7 @@
                             <div ng-repeat="secondaryProject in projects">
                               <div class="item row" ng-show="$index > 0"><!--excluding the first index -->
                                   <a class="col-md-4 col-sm-4 col-xs-12" href="{{secondaryProject.link}}" target="_blank">
-                                  <img class="img-responsive project-image" src="{{secondaryProject.image}}" alt="{{secondaryProject.name}}" />
+                                  <img class="img-responsive project-image" ng-src="{{secondaryProject.image}}" alt="{{secondaryProject.name}}" />
                                   </a>
                                   <div class="desc col-md-8 col-sm-8 col-xs-12">
                                       <h3 class="title"><a href="{{secondaryProject.link}}" target="_blank">{{secondaryProject.name}}</a></h3>
