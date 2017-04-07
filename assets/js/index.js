@@ -1,5 +1,10 @@
 angular.module("portfolio",[]);
 
+//removing debug stuff since i'm not debugging right now...
+angular.module("portfolio").config(['$compileProvider', function ($compileProvider) {
+  $compileProvider.debugInfoEnabled(false);
+}]);
+
 angular.module("portfolio").controller("mainController",function($scope){
   $scope.fullName = "Francisco Ari Josino Junior";
   $scope.devTitle = "FullStack Developer"
