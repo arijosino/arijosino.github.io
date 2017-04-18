@@ -34,12 +34,20 @@ angular.module("portfolio").controller("mainController",function($scope){
     }];
     $scope.jobs = [
       {
+        title:"Peer Mentor",
+        company:"Fanshawe College",
+        year:"01/2017 - 04/2017",
+        link:"https://www.fanshawec.ca/",
+        description:["Tutored students, helping them with course material and difficulties",
+                    ]
+      },
+      {
         title:"Intermediate Programmer",
         company:"Intrapoint AS",
         year:"03/2016 - 08/2016",
         link:"https://www.intrapoint.com/",
         description:["Developed end-user modules for the company’s customizable resource management system with javascript.",
-                    "Helped with the development of the mobile port of the company’s internal store for its multiple application and services.",
+                    "Assisted other team members with the development of the mobile port of the company’s internal store for its multiple application and services.",
                     "Debugged and improved code for Intrapoint’s crisis management system."]
       },
       {
