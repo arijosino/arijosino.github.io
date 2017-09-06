@@ -105,7 +105,7 @@ angular.module("portfolio").controller("mainController",function($scope){
 
     $scope.skills = [
       {
-        title:"Javascript + Angular + Node",
+        title:"Javascript + VueJS/AngularJS + Node",
         levelLabel:"Pro",
         levelPercentage:"100%"
       },
