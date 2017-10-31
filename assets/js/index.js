@@ -34,13 +34,20 @@ angular.module("portfolio").controller("mainController",function($scope){
     }];
     $scope.jobs = [
       {
-        title:"Web Developer",
+        title:"Project Lead",
         company:"CSTT Sport-Travel",
-        year:"05/2017 - present",
-        link:"http://sport-travel.com/",
+        year:"09/2017 - 10/2017",
+        link:"http://tournkey.ca/",
         description:["Redevelop a PHP tournament management system in VueJS and NodeJS",
                     "Assist on selecting and training new developers in building the new system",
                   "Migrate database from current system",]
+      },
+      {
+        title:"Web Developer",
+        company:"CSTT Sport-Travel",
+        year:"05/2017 - 08/2017",
+        link:"http://tournkey.ca/",
+        description:["Redevelop a PHP tournament management system in VueJS and NodeJS",]
       },
       {
         title:"Peer Mentor",
