@@ -14,19 +14,10 @@ angular.module("portfolio").controller("mainController",function($scope){
   $scope.aboutMe = ["I am a developer who got back to school after graduating in Computer Engineering in Brazil. After all I've been through as a student and a developer, I'd recently call myself a FullStack developer, although I do not limit myself to web systems since I worked with mobile and embedded software for a considerable amount of time.","I enjoy coding, gaming and Netflix."];
   $scope.projects = [
     {
-      name:"Rmind",
-      link:"https://play.google.com/store/apps/details?id=com.ririari.rmind&hl=en",
-      image:"assets/images/projects/project-rmind-featured.png",
-      summary:"A reminder app for sending and receiving alarms from your friends",
-      description:[
-        "This is an app I created as a personal exercise using Parse and the facebook Android API. The user can set personal alarms or send alarms with specific messages to friends. The user can opt to accept 'Rminders' coming from a facebook friend that also has this app, setting an alarm, or simply decline it.",
-        "Since Parse deactivated many of its resources, this app is under maintenance and won't work as of now"
-      ],
-    },{
       name:"Warship",
       link:"https://play.google.com/store/apps/details?id=com.ririari.warship&hl=en",
       image:"assets/images/projects/project-warship.png",
-      summary:"A reminder app for sending and receiving alarms from your friends",
+      summary:"A small android shoot-em-up game",
       description:[
         "This is a game I created as a result of a Unity3D game development course using Unity's 2D features. The game is a simple shoot-em-up where the player automatically shoots bullets at endless waves of enemies.",
         "I plan to improve this game to a professional level when I have enough time to dedicate to it."
