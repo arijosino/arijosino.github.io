@@ -7,10 +7,10 @@ angular.module("portfolio").config(['$compileProvider', function ($compileProvid
 
 angular.module("portfolio").controller("mainController",function($scope){
   $scope.fullName = "Francisco Ari Josino Junior";
-  $scope.devTitle = "FullStack Developer"
-  $scope.linkedinProfile = "https://linkedin.com/in/francisco-ari-josino-junior-89a07621"
-  $scope.githubProfile = "https://github.com/arijosino"
-  $scope.email = "arijr@outlook.com"
+  $scope.devTitle = "FullStack Developer";
+  $scope.linkedinProfile = "https://linkedin.com/in/francisco-ari-josino";
+  $scope.githubProfile = "https://github.com/arijosino";
+  $scope.email = "arijr@outlook.com";
   $scope.aboutMe = ["I am a developer who got back to school after graduating in Computer Engineering in Brazil. After all I've been through as a student and a developer, I'd recently call myself a FullStack developer, although I do not limit myself to web systems since I worked with mobile and embedded software for a considerable amount of time.","I enjoy coding, gaming and Netflix."];
   $scope.projects = [
     {
@@ -205,7 +205,7 @@ angular.module("portfolio").controller("mainController",function($scope){
         range.push(i);
       }
       return range;
-    }
+    };
 
     $scope.conferences = [
       {
