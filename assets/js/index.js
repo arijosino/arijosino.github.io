@@ -11,7 +11,7 @@ angular.module("portfolio").controller("mainController",function($scope){
   $scope.linkedinProfile = "https://linkedin.com/in/francisco-ari-josino";
   $scope.githubProfile = "https://github.com/arijosino";
   $scope.email = "arijr@outlook.com";
-  $scope.aboutMe = ["I am a developer who got back to school after graduating in Computer Engineering in Brazil. After all I've been through as a student and a developer, I'd recently call myself a FullStack developer, although I do not limit myself to web systems since I worked with mobile and embedded software for a considerable amount of time.","I enjoy coding, gaming and Netflix."];
+  $scope.aboutMe = ["I am a full stack developer who recently graduated in Web Development at Fanshawe College after graduating in Computer Engineering in Brazil. After all I've been through as a student and a developer, I'd recently call myself a FullStack developer, although I do not limit myself to web systems since I worked with mobile and embedded software for a considerable amount of time.","I enjoy coding, gaming and Netflix."];
   $scope.projects = [
     {
       name:"Warship",
@@ -134,7 +134,7 @@ angular.module("portfolio").controller("mainController",function($scope){
       {
         title:"Internet Applications and Web Development",
         school:"Fanshawe College",
-        year:"09/2016 - Present"
+        year:"09/2016 - 04/2018"
       },
       {
         title:"Computer Engineering",
